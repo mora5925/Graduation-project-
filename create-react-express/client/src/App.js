@@ -8,7 +8,10 @@ const App = () => {
 
   const Request = 'https://api.edamam.com/search?q=chicken&app_id=${APP_ID}&app_key=${APP_KEY}&from=0&to=3&calories=591-722&health=alcohol-free'
   return (
+    
     <div className="App">
+      
+      <h1>Chef's Menu</h1>
     <form className="search-form">
       <input className="search-bar" type="text"/>
       <button className="search-button" type="submit">search</button>
